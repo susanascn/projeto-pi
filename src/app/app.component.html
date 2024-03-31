@@ -1,1 +1,11 @@
 <app-header></app-header>
+<app-home></app-home>
+
+<nav *ngIf="isBrowser">
+  <ul>
+    <li><a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Início</a></li>
+    <li><a routerLink="/contato" routerLinkActive="active" ariaCurrentWhenActive="page">Contato</a></li>
+  </ul>
+</nav>
+
+  <router-outlet></router-outlet>

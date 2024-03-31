@@ -1,7 +1,7 @@
 
 .container {
     position: relative;
-    width: 1335px;
+    width: 1340px;
     height: 500px;
 }
 
@@ -12,52 +12,19 @@
     height: 45px;
 }
 
-.cabecalho nav {
-  color: #fff;
-  display: flex;
-  justify-content: flex-end;
-  padding: 50px;
-  position: absolute;
-  bottom: 500px;
-  width: 1300px;
-
-}
-
-.cabecalho nav ul {
-  list-style: none;
-  display: flex;
-  margin: 20px;
-  padding: 0;
-
-}
-
-.cabecalho nav li {
-  margin-right: 20px;
-}
-
-.cabecalho nav a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: bold;
-  transition: color 0.3s ease-in-out;
-}
-
-.cabecalho nav a:hover {
-  color: #d2c661;
-}
-
 .cabecalho h3 {
   margin-top: -300px;
   margin-left: 100px;
   color: #d2c661;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .cabecalho h1 {
-  margin-top: -15px;
+  margin-top: 10px;
   margin-left: 100px;
   color: #fff;
-  font-size: 35px;
+  font-size: 45px;
+  position: relative;
 }
 
 .botao {
@@ -69,8 +36,11 @@
   font-weight: bold;
   font-size: 16px;
   transition: 0.3s;
-  margin-left: 170px;
+  position: relative; /* Adicione isso */
+  top: 20px;
+  margin: 105px;
 }
+
 
 .botao:hover {
   background-color: #006400;
